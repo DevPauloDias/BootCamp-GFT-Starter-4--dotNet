@@ -1,0 +1,16 @@
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\Praticando_C#.exe
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\Praticando_C#.deps.json
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\Praticando_C#.runtimeconfig.json
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\Praticando_C#.runtimeconfig.dev.json
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\Praticando_C#.dll
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\ref\Praticando_C#.dll
+C:\BootCamp GFT -dotNet\Praticando_C#\bin\Debug\net5.0\Praticando_C#.pdb
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.csproj.AssemblyReference.cache
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.AssemblyInfoInputs.cache
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.AssemblyInfo.cs
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.csproj.CoreCompileInputs.cache
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.dll
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\ref\Praticando_C#.dll
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.pdb
+C:\BootCamp GFT -dotNet\Praticando_C#\obj\Debug\net5.0\Praticando_C#.genruntimeconfig.cache
