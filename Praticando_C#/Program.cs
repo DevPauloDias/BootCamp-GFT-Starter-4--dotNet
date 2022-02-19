@@ -88,18 +88,22 @@ namespace Praticando_C_
         static void Media(){
 
             decimal somaNotas=0;
+            decimal totalAlunos=0;
 
             for(int cont=0; cont < alunos.Length; cont++){
 
                 if(alunos[cont] !=null){
-                    somaNotas= alunos[cont].nota;
+                    somaNotas+= alunos[cont].nota;
+
+                    totalAlunos +=1;
                 }
                
             }
 
-            decimal media = somaNotas/ alunos.Length;
+            decimal media = somaNotas/ totalAlunos;
 
-            Console.WriteLine(media);
+            Console.WriteLine($" - Média geral: {media} pts\n");
+            Console.ReadKey();
         }
 
         static void Sair(){
@@ -110,10 +114,10 @@ namespace Praticando_C_
             Console.Clear();
             Console.WriteLine("------------------------------- \n");
             Console.WriteLine(" Informe a opção desejada:");
-            Console.WriteLine(" 1- Cadastrar aluno ");
-            Console.WriteLine("2 - Listar alunos");
-            Console.WriteLine("3 - Média geral");
-            Console.WriteLine("4 - sair");
+            Console.WriteLine("  1 - Cadastrar aluno ");
+            Console.WriteLine("  2 - Listar alunos");
+            Console.WriteLine("  3 - Média geral");
+            Console.WriteLine("  4 - sair");
             Console.WriteLine("\n------------------------------- \n");
 
             int opcUsuario= int.Parse(Console.ReadLine());
