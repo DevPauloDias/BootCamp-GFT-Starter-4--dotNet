@@ -1,0 +1,16 @@
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\types_CSharp.exe
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\types_CSharp.deps.json
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\types_CSharp.runtimeconfig.json
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\types_CSharp.runtimeconfig.dev.json
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\types_CSharp.dll
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\ref\types_CSharp.dll
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\bin\Debug\net5.0\types_CSharp.pdb
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.csproj.AssemblyReference.cache
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.AssemblyInfoInputs.cache
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.AssemblyInfo.cs
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.csproj.CoreCompileInputs.cache
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.dll
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\ref\types_CSharp.dll
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.pdb
+C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\obj\Debug\net5.0\types_CSharp.genruntimeconfig.cache
