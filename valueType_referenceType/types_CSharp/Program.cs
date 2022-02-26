@@ -66,9 +66,8 @@ namespace types_CSharp
        }
       
       
-        static void Main(string[] args)
-        {
-            structPessoa p1= new structPessoa{
+       static void demo3_struct_valueType(){
+           structPessoa p1= new structPessoa{
 
                 documento= "123",
                 nome= "ricardo",
@@ -84,6 +83,39 @@ namespace types_CSharp
             WriteLine($@"
                  O nome de p1 é: {p1.nome}
                  O nome de p2 é: {p2.nome}");
+
+
+       }
+        
+       static void alterar_array(string[] nomes, string nome, string novoNome){
+           for( int i=0; i < nomes.Length; i++){
+               if(nomes[i] == nome){
+                   nomes[i]= novoNome;
+               }
+           }
+       }
+        static void Main(string[] args)
+        {
+            var nomes= new string[] {"paulo", "felipe"," gão", "Bim"};
+
+            WriteLine($@" 
+               Lista atual:
+            {string.Join(",\n", nomes)}");
+
+            WriteLine($" Digite o nome a ser substituido:");
+            string nome= ReadLine();
+            Clear();
+            WriteLine(" Informe o novo nome:");
+            string novoNome= ReadLine();
+
+            alterar_array(nomes, nome, novoNome);
+
+
+            Clear();
+
+            WriteLine($@"lista modificada:
+            {string.Join(",\n", nomes)}");
+            
            
         }
 
