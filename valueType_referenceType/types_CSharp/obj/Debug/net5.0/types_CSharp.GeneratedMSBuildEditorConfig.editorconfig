@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = types_CSharp
-build_property.ProjectDir = C:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\
+build_property.ProjectDir = c:\BootCamp GFT -dotNet\valueType_referenceType\types_CSharp\

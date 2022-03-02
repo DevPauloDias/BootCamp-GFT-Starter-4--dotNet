@@ -96,7 +96,7 @@ namespace types_CSharp
        }
         static void Main(string[] args)
         {
-            var nomes= new string[] {"paulo", "felipe"," gão", "Bim"};
+            var nomes= new string[] {"paulo", "felipe"," Maria", "Beatriz"};
 
             WriteLine($@" 
                Lista atual:
@@ -115,11 +115,8 @@ namespace types_CSharp
 
             WriteLine($@"lista modificada:
             {string.Join(",\n", nomes)}");
-            
-           
+
         }
-
-
         static void  alterarNome(Pessoa p1){
             WriteLine("Informe o novo nome: ");
             p1.nome = ReadLine();            
