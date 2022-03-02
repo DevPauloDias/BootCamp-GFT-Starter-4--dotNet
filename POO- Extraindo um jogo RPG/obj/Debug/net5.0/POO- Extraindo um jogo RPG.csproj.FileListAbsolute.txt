@@ -1,0 +1,16 @@
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\POO- Extraindo um jogo RPG.exe
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\POO- Extraindo um jogo RPG.deps.json
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\POO- Extraindo um jogo RPG.runtimeconfig.json
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\POO- Extraindo um jogo RPG.runtimeconfig.dev.json
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\POO- Extraindo um jogo RPG.dll
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\ref\POO- Extraindo um jogo RPG.dll
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\bin\Debug\net5.0\POO- Extraindo um jogo RPG.pdb
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.csproj.AssemblyReference.cache
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.AssemblyInfoInputs.cache
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.AssemblyInfo.cs
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.csproj.CoreCompileInputs.cache
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.dll
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\ref\POO- Extraindo um jogo RPG.dll
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.pdb
+C:\BootCamp GFT -dotNet\POO- Extraindo um jogo RPG\obj\Debug\net5.0\POO- Extraindo um jogo RPG.genruntimeconfig.cache
