@@ -4,22 +4,89 @@ using POO__Extraindo_um_jogo_RPG.src.entities;
 
 namespace POO__Extraindo_um_jogo_RPG
 {
-    class Program
+class Program
+{
+    
+    static void Main(string[] args)
     {
-       
-        static void Main(string[] args)
-        {
 
-          White_Wizard teste= new White_Wizard("Alisha",21);
+      
+        Hero caracter= choose_caracter();
+        if(caracter.name != "Nenhum"){
+           startGame(caracter);
+
+        }else{
+          WriteLine(" Escolha inválida!!! Encerrando o programa...");
+        }
+       
+
+    }
+
+    static void startGame(Hero caracter){
+       WriteLine($@"
+         ****************************************
+                ##  Boa escolha! ##
+        
+
+            -- Pronto para começar? [S/N]
+        ** **************************************");
+
+        string init= ReadLine();
+
+        if(init.ToUpper() =="S"){
           Clear();
-          WriteLine(teste.attack());
-          WriteLine(teste.attack(30));
-          ReadKey();
-           choose_caracter();
+          WriteLine(@" 
+
+                  =============================================
+                      Seu primeiro desafio é derrotar Tauros!
+                  =============================================
+          
+          
+         [Tauros] -- Mostre-me suas habilidades! ");
+
+         WriteLine("\n \n [Pressione M para mostrar suas habilidades.]");
+          string showHabilits = ReadLine();
+
+          if(showHabilits.ToUpper() == "M"){
+            WriteLine(" ********************************* \n");
+
+              WriteLine("   "+ caracter.attack());
+            WriteLine("\n *********************************\n");
+
+              ReadKey();
+
+             
+              WriteLine(@"           
+                            
+           [Tauros] -  kkkk, esperava mais de você, com essas habilidades não derrota niguém.
+            -- Ainda assim, quero ver até onde pode ir... Se prepare para a batalha! -- 
+              ");
+              WriteLine("\n ************************************\n\n");
+              WriteLine("\n -- Iniciar batalha? [S/N]\n");
+              ReadKey();
+            WriteLine(" ************************************");
+            WriteLine("\n \n  Versão demo encerrada...\n");
+            WriteLine(" ************************************\n\n");
+
+          }else{
+            WriteLine(" ************************************\n\n");
+            WriteLine(@" Entendo, você não quer mostrar seu potencial...
+            -- Porém, você não tem escolha. Se prepare para a batalha! --");
+            WriteLine(" ************************************\n\n");
+            ReadKey();
+
+            WriteLine("\n  -- Versão demo encerrada...-- ");
+          }
+
+        
 
         }
 
-         static void choose_caracter(){
+
+      
+    }
+
+         static Hero choose_caracter(){
 
             string introduce;
           
@@ -44,8 +111,10 @@ namespace POO__Extraindo_um_jogo_RPG
                   
                  introduce= Arus.Introduce(Arus);
                  WriteLine(introduce);
-                 ReadKey(); 
-                 WriteLine(" Continue....");
+                 ReadKey();
+                 Clear(); 
+                
+                 return Arus;
                 
 
             }else if (choose ==2){
@@ -55,8 +124,10 @@ namespace POO__Extraindo_um_jogo_RPG
                    ReadKey();
                    introduce= Jennica.Introduce(Jennica);
                  WriteLine(introduce); 
-                 ReadKey();  
-                 WriteLine(" Continue....");
+                 ReadKey(); 
+                  Clear();  
+                
+                 return Jennica;
             } else if(choose == 3){
                 Black_Wizard Topapa= new Black_Wizard("Topapa", 23);
                   WriteLine($"You choose the caracter {Topapa.name}"); 
@@ -64,7 +135,9 @@ namespace POO__Extraindo_um_jogo_RPG
                    introduce= Topapa.Introduce(Topapa);
                  WriteLine(introduce); 
                  ReadKey();  
-                 WriteLine(" Continue....");
+                  Clear(); 
+                
+                 return Topapa;
 
 
             }else if(choose ==4){
@@ -73,12 +146,15 @@ namespace POO__Extraindo_um_jogo_RPG
                    ReadKey();
                    introduce= Wedge.Introduce(Wedge);
                  WriteLine(introduce); 
-                 ReadKey();  
-                 WriteLine(" Continue....");
+                 ReadKey(); 
+                  Clear();  
+              
+                 return  Wedge;
 
-            }else{
-                WriteLine(" -- Choose a value Hero... --");
             }
+            Hero hero= new Hero();
+            hero.name= "Nenhum";
+              return hero;           
             
         }
       

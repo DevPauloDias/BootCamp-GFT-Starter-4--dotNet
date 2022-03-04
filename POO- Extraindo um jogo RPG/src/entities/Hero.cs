@@ -3,7 +3,7 @@ using static System.Console;
 namespace POO__Extraindo_um_jogo_RPG.src.entities
 {
     
-     public abstract class Hero
+     public  class Hero
     {
         public string name;
         public int level;
